@@ -1,0 +1,38 @@
+{
+  "name": "josi-access",
+  "description": "This is a framework for connecting all of your robot's various API's, adapters, and environments. This is where you handle all of your per-application authentication and control. These modules depend heavily on environment variables, and will need to evolve to account for easier management over time.",
+  "version": "1.0.0",
+  "author": "Jolly Science",
+  "license": "MIT",
+
+  "keywords": [
+    "hubot",
+    "hubot-scripts"
+  ],
+
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jollyscience/josi-access.git"
+  },
+
+  "bugs": {
+    "url": "https://github.com/jollyscience/josi-access/issues"
+  },
+
+  "dependencies": {
+    "coffee-script": "~1.6"
+  },
+
+  "devDependencies": {
+    "mocha": "*",
+    "chai": "*",
+    "sinon-chai": "*",
+    "sinon": "*"
+  },
+
+  "main": "index.coffee",
+
+  "scripts": {
+    "test": "script/test"
+  }
+}
