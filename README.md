@@ -12,7 +12,7 @@ This is a framework for connecting all of your robot's various API's, adapters, 
 			- node-codebase/
 			- node-harvest/
 			- node-xero/
-		- scripts/
+		- src/
 			- codebase.coffee
 			- harvest.coffee
 			- xero.coffee
