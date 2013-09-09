@@ -1,0 +1,40 @@
+{
+  "name": "josi-access",
+  "description": "This is a framework for connecting all of your robot's various API's, adapters, and environments. This is where you handle all of your per-application authentication and control. These modules depend heavily on environment variables, and will need to evolve to account for easier management over time.",
+  "version": "0.0.2",
+  "author": {
+    "name": "Jolly Science"
+  },
+  "license": "MIT",
+  "keywords": [
+    "hubot",
+    "hubot-scripts"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jollyscience/josi-access.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jollyscience/josi-access/issues"
+  },
+  "dependencies": {
+    "coffee-script": "~1.6",
+    "githubot": "*",
+    "node-codebase": "*",
+    "underscore": "*"
+  },
+  "devDependencies": {
+    "mocha": "*",
+    "chai": "*",
+    "sinon-chai": "*",
+    "sinon": "*"
+  },
+  "main": "index.coffee",
+  "scripts": {
+    "test": "script/test"
+  },
+  "readme": "### josi-access\n\n[coming soon]\n\n\tnpm install josi-access\n\nThis is a framework for connecting all of your robot's various API's, adapters, and environments. This is where you handle all of your per-application authentication and control. These modules depend heavily on environment variables, and will need to evolve to account for easier management over time.\n\n\t- josi-access/\n\t\t- node_modules/\n\t\t\t- gitJoSi/\n\t\t\t- node-codebase/\n\t\t\t- node-harvest/\n\t\t\t- node-xero/\n\t\t- src/\n\t\t\t- codebase.coffee\n\t\t\t- harvest.coffee\n\t\t\t- xero.coffee",
+  "readmeFilename": "README.md",
+  "_id": "josi-access@0.0.2",
+  "_from": "josi-access@*"
+}
